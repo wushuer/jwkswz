@@ -3,6 +3,7 @@
 #include"graphmtx.h"
 
 bool Graphmtx::removeVertex(int v) {
+	cout << "hanhsn" <<  endl;
 	if (v < 0 || v >= numVertices)
 		return false;
 	if (numVertices == 1)
